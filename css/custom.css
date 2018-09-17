@@ -64,3 +64,32 @@
     text-align: center;
     color: #fff;
 }
+.bg_title_name{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #fff;
+}
+.bg_title_work{
+    font-size: 24px;
+    line-height: 1.42;
+    opacity: 0.5;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.getall{
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 223px;
+    margin: 0;
+    padding: 16px;
+    background-color: #c83232;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px !important;
+    font-weight: 600;
+}

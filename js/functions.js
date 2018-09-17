@@ -1,11 +1,4 @@
-//----------------------------------------------------/
-//
-//      POLO
-//      Author: INSPIRO
-//      Version: v4.0
-//      Update: 20/03/2017
-//
-//----------------------------------------------------/
+
 
 
 //Global var
@@ -483,6 +476,9 @@ var INSPIRO = {},
             } else if ($header.hasClass('dark')) {
                 if (logoDark) {
                     logo.find('img').attr('src', logoDark);
+                    if ($header.hasClass('header-sticky')){
+                        logo.find('img').attr('style', 'height:40px !important');
+                    }
                 } else {
                     logo.find('img').attr('src', logoImg);
                 }

@@ -196,6 +196,12 @@
     color: rgba(255,255,255,0.5);
 
 }
+.about_title{
+    text-align: left !important;
+}
+.zeroborder{
+    border-bottom: 0px !important;
+}
 @media(max-width: 992px) {
     .logoclass{
         width: 45% !important;

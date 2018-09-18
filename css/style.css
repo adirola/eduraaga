@@ -958,8 +958,8 @@ border-top: 1px solid $light;
       #header #header-wrap #logo a > img {
         vertical-align: inherit;
         transition: all .4s ease-in-out;
-        height: 80px;
-        width: auto; }
+        
+         }
   #header.header-sticky #header-wrap {
 
     transition: top .8s ease-in-out;
@@ -2489,7 +2489,7 @@ HEADER: Responsive
   #header.header-transparent, #header.dark.header-transparent, #header.dark.header-colored, #header.dark.header-colored-transparent {
     /*Main Menu*/ }
     #header.header-transparent #header-wrap, #header.dark.header-transparent #header-wrap, #header.dark.header-colored #header-wrap, #header.dark.header-colored-transparent #header-wrap {
-      background-color: #ffffff; }
+      background-color: #000; }
       #header.header-transparent #header-wrap .lines,
       #header.header-transparent #header-wrap .lines:before,
       #header.header-transparent #header-wrap .lines:after, #header.dark.header-transparent #header-wrap .lines,
@@ -3041,8 +3041,8 @@ HEADER: Responsive
 @media (max-width: 992px) {
   .inspiro-slider .slide-captions h1,
   .inspiro-slider .slide-captions h2 {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 30px;
     margin-bottom: 14px; }
   .inspiro-slider .slide-captions > p {
     font-size: 18px;

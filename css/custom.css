@@ -65,24 +65,24 @@
     color: #fff;
 }
 .bg_title_name{
-    font-size: 48px !important;
-    font-weight: bold !important;
-    line-height: 1.33 !important;
-    color: #fff !important;
+    font-size: 48px ;
+    font-weight: bold ;
+    line-height: 1.33 ;
+    color: #fff ;
     text-transform: uppercase;
 }
 .bg_title_work{
-    font-size: 24px !important;
-    line-height: 1.42 !important;
+    font-size: 24px ;
+    line-height: 1.42 !;
     opacity: 0.5 !important;
-    vertical-align: baseline !important;
-    letter-spacing: 2px !important;
-    color: #ffffff !important;
+    vertical-align: baseline ;
+    letter-spacing: 2px ;
+    color: #ffffff ;
 }
 .getall{
     display: inline-block;
     vertical-align: middle;
-    min-width: 223px;
+    min-width: 40%;
     margin: 0;
     padding: 16px;
     background-color: #c83232;
@@ -100,7 +100,7 @@
 .lernMore{
     display: inline-block;
     vertical-align: middle;
-    min-width: 223px;
+    min-width: 40%;
     margin: 0;
     padding: 16px;
     background-color: #c83232;
@@ -116,7 +116,23 @@
 .bg_title_caption{
     display:inline-block !important;
     margin-bottom: 3% !important;
-    font-size: 18px !important;
-    line-height: 1.56 !important;
-    letter-spacing: 0.5px !important;
+    font-size: 18px ;
+    line-height: 1.56 ;
+    letter-spacing: 0.5px ;
+}
+@media(max-width: 992px) {
+    .logoclass{
+        width: 45% !important;
+    }
+    .btn-lg{
+        height: 32px !important;
+    }
+    .left{
+        padding-right: 0px !important;
+    }
+    .right{
+        padding-left: 0px !important;
+        margin-top: 3%;
+    }
+
 }

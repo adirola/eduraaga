@@ -477,11 +477,11 @@ var INSPIRO = {},
             } else if ($header.hasClass('dark')) {
                 if (logoDark) {
                     logo.find('img').attr('src', logoDark);
-                    logo.find('img').attr('style', 'height:120px !important');
+                    logo.find('img').attr('style', 'width:10%');
                     // specialdiv.attr('style','display:inline-block !important');
                     
                     if ($header.hasClass('header-sticky')){
-                        logo.find('img').attr('style', 'height:40px !important');
+                        logo.find('img').attr('style', 'width:45% !important');
                         // specialButton.find('a').attr('style','display:inline-block !important');
                         
                     }

@@ -2485,11 +2485,11 @@ HEADER: Responsive
     #header .dark .header-extras .lines:after, #header.dark .header-extras .lines,
     #header.dark .header-extras .lines:before,
     #header.dark .header-extras .lines:after {
-      background-color: #ffffff; }
+      background-color: #000; }
   #header.header-transparent, #header.dark.header-transparent, #header.dark.header-colored, #header.dark.header-colored-transparent {
     /*Main Menu*/ }
     #header.header-transparent #header-wrap, #header.dark.header-transparent #header-wrap, #header.dark.header-colored #header-wrap, #header.dark.header-colored-transparent #header-wrap {
-      background-color: #000; }
+      background-color: #000 !important; }
       #header.header-transparent #header-wrap .lines,
       #header.header-transparent #header-wrap .lines:before,
       #header.header-transparent #header-wrap .lines:after, #header.dark.header-transparent #header-wrap .lines,

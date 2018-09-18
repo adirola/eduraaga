@@ -19,7 +19,8 @@ var INSPIRO = {},
         $topbar = $('#topbar'),
         $header = $('#header'),
         $headerCurrentClasses = $header.attr('class'),
-
+        specialButton = $('#headerButton').find('.specialButton'),
+        specialdiv = specialButton.find('a').hasClass('btn'),
         logo = $('#logo').find('.logo'),
         logoImg = logo.find('img').attr('src'),
         logoDark = logo.attr('data-dark-logo'), //Main menu
@@ -476,11 +477,17 @@ var INSPIRO = {},
             } else if ($header.hasClass('dark')) {
                 if (logoDark) {
                     logo.find('img').attr('src', logoDark);
+                    logo.find('img').attr('style', 'height:120px !important');
+                    // specialdiv.attr('style','display:inline-block !important');
+                    
                     if ($header.hasClass('header-sticky')){
                         logo.find('img').attr('style', 'height:40px !important');
+                        // specialButton.find('a').attr('style','display:inline-block !important');
+                        
                     }
                 } else {
                     logo.find('img').attr('src', logoImg);
+                    
                 }
             } else {
                 logo.find('img').attr('src', logoImg);

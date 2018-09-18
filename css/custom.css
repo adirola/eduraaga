@@ -120,6 +120,17 @@
     line-height: 1.56 ;
     letter-spacing: 0.5px ;
 }
+.counter_1{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 32px;
+    letter-spacing: .04em;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: .8;
+    margin-bottom:7%;
+}
 @media(max-width: 992px) {
     .logoclass{
         width: 45% !important;
@@ -135,4 +146,11 @@
         margin-top: 3%;
     }
 
+}
+@media (max-width: 850px){
+    .counter_1{
+        font-size: 20px;
+        margin-bottom:1% ;
+    }
+    
 }

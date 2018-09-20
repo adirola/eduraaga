@@ -202,6 +202,21 @@
 .zeroborder{
     border-bottom: 0px !important;
 }
+.specialPermit{
+    background-color: #000 !important;
+    border-bottom: 0;
+}
+
+#header.header-sticky #header-wrap {
+    background: linear-gradient(#000 65%, transparent) !important;
+    background-color: transparent !important;
+}
+.specialContainer{
+    padding: 5%;
+}
+.Bold{
+    font-weight: bold;
+}
 @media(max-width: 992px) {
     .logoclass{
         width: 45% !important;

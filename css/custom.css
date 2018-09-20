@@ -65,19 +65,19 @@
     color: #fff;
 }
 .bg_title_name{
-    font-size: 48px ;
-    font-weight: bold ;
-    line-height: 1.33 ;
-    color: #fff ;
-    text-transform: uppercase;
+    font-size: 48px !important ;
+    font-weight: bold !important ;
+    line-height: 1.33  !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
 }
 .bg_title_work{
-    font-size: 24px ;
-    line-height: 1.42 !;
+    font-size: 24px !important;
+    line-height: 1.42 !important;
     opacity: 0.5 !important;
     vertical-align: baseline ;
-    letter-spacing: 2px ;
-    color: #ffffff ;
+    letter-spacing: 2px !important;
+    color: #ffffff !important;
 }
 .getall{
     display: inline-block;
@@ -116,9 +116,9 @@
 .bg_title_caption{
     display:inline-block !important;
     margin-bottom: 3% !important;
-    font-size: 18px ;
-    line-height: 1.56 ;
-    letter-spacing: 0.5px ;
+    font-size: 18px !important;
+    line-height: 1.56 !important;
+    letter-spacing: 0.5px !important;
 }
 .counter_1{
     font-style: normal;
@@ -216,6 +216,65 @@
 }
 .Bold{
     font-weight: bold;
+}
+.specialBoundry{
+    border-left: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+.counter_2{
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color:#fff;
+    margin-bottom:5%;
+}
+.specilaBg{
+    background: #fff !important;
+    padding:20px;
+}
+.artistTitle{
+    font-weight: 300;
+    margin-bottom: 0.3em;
+    text-transform: none;
+    font-size: 3em;
+    color: #4D5768;
+}
+.specilaBgblack{
+
+    margin: 50px auto;
+    border: 1px solid #ffffff80;
+    border-radius: 4px;
+    padding: 30px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.pageSomething{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 1.4 !important;
+    letter-spacing: .5px !important;
+    color: #fff !important;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.pageSpansomething{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.3;
+    letter-spacing: 1.76px;
+    color: #ffffff80;
+    text-transform: uppercase;
 }
 @media(max-width: 992px) {
     .logoclass{

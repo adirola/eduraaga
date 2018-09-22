@@ -2,6 +2,24 @@
     /* background: linear-gradient(to bottom, black 0%, black 50%, #090909 100%) !important; */
     background-color: #000 !important;
     color: #fff;
+    
+}
+.sectionblack p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.work_titile{
+
+}
+.textform li{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #7b7b7b;
 }
 .press_black{
     padding-top: 30px;

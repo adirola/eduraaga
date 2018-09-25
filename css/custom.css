@@ -327,3 +327,8 @@
 .footer-dark{
     color:#fff !important;
 }
+.form-group label{
+    color:#fff !important;
+}
+.contact-form {
+    clear: left; }

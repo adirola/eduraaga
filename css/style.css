@@ -13301,10 +13301,12 @@ footer.background-grey .copyright-content {
   #footer.footer-dark a {
     color: #FFF !important; }
   #footer.footer-dark p {
-      color: #FFF !important; }
+    color: #FFF !important; }
+  #footer.footer-dark h4 {
+    color: #FFF !important; }
   #footer.footer-dark .widget h4,
   #footer.footer-dark span {
-    color: #999 !important; }
+    color: #fff !important; }
   #footer.footer-dark .copyright-content {
     border-top: 1px solid #222;
     min-height: 80px;

@@ -36,7 +36,7 @@
                 // {id:'dfbsbfshdbfhsb',eventNo:1,tag: 'Light Music',imgsrc1:'',imgsrc2:'', heading:'Event 1',content: 'lorem ipsum', date:'23rd Sep 2018'}
             ]
             console.log(data2);
-            data = (data2.length>3?data1:data2);
+            data = (data2.length>3&&data2.length!=0?data1:data2);
             var len = data.length;
             
             if (len==0){

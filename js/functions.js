@@ -477,7 +477,7 @@ var INSPIRO = {},
             } else if ($header.hasClass('dark')) {
                 if (logoDark) {
                     logo.find('img').attr('src', logoDark);
-                    logo.find('img').attr('style', 'width:10%');
+                    logo.find('img').attr('style', 'width:12%');
                     // specialdiv.attr('style','display:inline-block !important');
                     
                     if ($header.hasClass('header-sticky')){

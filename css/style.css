@@ -13299,7 +13299,9 @@ footer.background-grey .copyright-content {
   border-top: 1px solid #222; }
   #footer.footer-dark,
   #footer.footer-dark a {
-    color: #666 !important; }
+    color: #FFF !important; }
+  #footer.footer-dark p {
+      color: #FFF !important; }
   #footer.footer-dark .widget h4,
   #footer.footer-dark span {
     color: #999 !important; }

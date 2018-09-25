@@ -13,9 +13,28 @@
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
-		<link href="css/custom.css" rel="stylesheet"> </head>
+        <link href="css/custom.css" rel="stylesheet">
+    <script>
+        function detData(){
+            $.ajax({
+                    url: "http://localhost:9000/api/smartHome",
+                    type: "GET",
+                    success : function (result){
+                        console.log(result);
+                    },
+                    error: function(result){
+                        console.log(result);
+                    }
+                })
+        }
+    
+    
+    </script>
+    
+    
+    </head>
 
-<body>
+<body onload="detData()">
 
 
     <!-- Wrapper -->

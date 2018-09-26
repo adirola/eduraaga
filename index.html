@@ -16,27 +16,27 @@
         <link href="css/custom.css" rel="stylesheet">
     <script>
         async function detData(){
-            var data2=[];
-            await $.ajax({
-                    url: "http://localhost:9000/api/smartHome",
-                    type: "GET",
-                    success : function (result){
-                        data2 = result;
-                    },
-                    error: function(){
-                        console.log('error happened');
-                    }
-            });
+            // var data2=[];
+            // await $.ajax({
+            //         url: "http://localhost:9000/api/smartHome",
+            //         type: "GET",
+            //         success : function (result){
+            //             data2 = result;
+            //         },
+            //         error: function(){
+            //             console.log('error happened');
+            //         }
+            // });
             
-            data1 = [
+            data = [
                 {id:'dfbsbfshdbfhsb',eventNo:1,tag: 'Light Music',imgsrc1:'images/image2.jpg',imgsrc2:'', heading:'Event 1',content: 'lorem ipsum', date:'23rd Sep 2018'},
                 {id:'dfbsbfshdbfhsb',eventNo:1,tag: 'Light Music',imgsrc1:'images/image1.jpg',imgsrc2:'', heading:'Event 1',content: 'lorem ipsum', date:'23rd Sep 2018'},
                 {id:'dfbsbfshdbfhsb',eventNo:1,tag: 'Light Music',imgsrc1:'images/image3.jpg',imgsrc2:'', heading:'Event 1',content: 'lorem ipsum', date:'23rd Sep 2018'},
                 //{id:'dfbsbfshdbfhsb',eventNo:1,tag: 'Light Music',imgsrc1:'',imgsrc2:'', heading:'Event 1',content: 'lorem ipsum', date:'23rd Sep 2018'},
                 // {id:'dfbsbfshdbfhsb',eventNo:1,tag: 'Light Music',imgsrc1:'',imgsrc2:'', heading:'Event 1',content: 'lorem ipsum', date:'23rd Sep 2018'}
             ]
-            console.log(data2);
-            data = (data2.length>3&&data2.length!=0?data1:data2);
+            // console.log(data2);
+            // data = (data2.length>3&&data2.length!=0?data1:data2);
             var len = data.length;
             
             if (len==0){

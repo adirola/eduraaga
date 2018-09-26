@@ -332,3 +332,7 @@
 }
 .contact-form {
     clear: left; }
+
+body{
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}

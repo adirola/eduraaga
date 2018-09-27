@@ -90,7 +90,7 @@
     text-transform: uppercase !important;
 }
 .bg_title_work{
-    font-size: 24px !important;
+    font-size: 24px ;
     line-height: 1.42 !important;
     opacity: 0.5 !important;
     vertical-align: baseline ;
@@ -134,7 +134,7 @@
 .bg_title_caption{
     display:inline-block !important;
     margin-bottom: 3% !important;
-    font-size: 18px !important;
+    font-size: 18px;
     line-height: 1.56 !important;
     letter-spacing: 0.5px !important;
 }
@@ -314,6 +314,16 @@
     width: -webkit-calc(100% - 4em);
     width: -moz-calc(100% - 4em);
     width: calc(100% - 4em);
+    }
+    .bg_title_caption{
+        
+        font-size: 12px !important;
+    }
+    .bg_title_work{
+        font-size: 14px !important;
+    }
+    .bg_title_name{
+        font-size: 24px !important
     }
 
 }

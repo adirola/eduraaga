@@ -2925,7 +2925,7 @@ HEADER: Responsive
       margin-bottom: 30px;
       color: #ffffff; }
     .inspiro-slider .slide-captions h2 {
-      font-size: 60px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 68px;
       margin-bottom: 30px;
@@ -2955,7 +2955,7 @@ HEADER: Responsive
         width: 26px; }
     .inspiro-slider .slide-captions > p {
       color: #ffffff;
-      font-size: 34px;
+      font-size: 18px;
       font-weight: 300;
       line-height: 50px;
       margin-bottom: 40px; }

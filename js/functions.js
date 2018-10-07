@@ -2015,9 +2015,20 @@ var INSPIRO = {},
 
                     elem.validate({
                         submitHandler: function (form) {
+                            var data = form.find('input#Name');
+                            console.log(data);
+                            console.log(form.find('input#Name'));
+                            const formToJSON = elements => [].reduce.call(elements, (data, element) => {
+    
+                                data[element.name] = element.value;
+                                return data;
+            
+                            }, {});
+
                             var button = $(form).find('button#form-submit'),
                                 buttonText = button.html();
-
+                            const data = getFormDataAsJSON(form);
+                            console.log(data);
                             button.html('<i class="fa fa-refresh fa-spin"></i> Sending...');
 
                             $(form).ajaxSubmit({

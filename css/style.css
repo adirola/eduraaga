@@ -2925,7 +2925,7 @@ HEADER: Responsive
       margin-bottom: 30px;
       color: #ffffff; }
     .inspiro-slider .slide-captions h2 {
-      font-size: 60px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 68px;
       margin-bottom: 30px;
@@ -2955,7 +2955,7 @@ HEADER: Responsive
         width: 26px; }
     .inspiro-slider .slide-captions > p {
       color: #ffffff;
-      font-size: 34px;
+      font-size: 18px;
       font-weight: 300;
       line-height: 50px;
       margin-bottom: 40px; }
@@ -13300,6 +13300,11 @@ footer.background-grey .copyright-content {
   #footer.footer-dark,
   #footer.footer-dark a {
     color: #FFF !important; }
+<<<<<<< HEAD
+  #footer.footer-dark .widget h4,
+  #footer.footer-dark span {
+    color: #FFF !important; }
+=======
   #footer.footer-dark p {
     color: #FFF !important; }
   #footer.footer-dark h4 {
@@ -13307,6 +13312,7 @@ footer.background-grey .copyright-content {
   #footer.footer-dark .widget h4,
   #footer.footer-dark span {
     color: #fff !important; }
+>>>>>>> c6d4e31ad3f4627146784447cf226cbc9a2c73e3
   #footer.footer-dark .copyright-content {
     border-top: 1px solid #222;
     min-height: 80px;

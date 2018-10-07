@@ -19,7 +19,7 @@
                 form1 = document.getElementById('myForm');
                 var data1 = objectifyForm(form1);
                 $.ajax({
-                    url: "http://localhost:9000/api/smartHome",
+                    url: "http://emailwizrd.southindia.azurewebapps.net:9000/api/smartHome",
                     type: "POST",
                     data: data1,
                     success : function (result){
